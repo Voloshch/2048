@@ -1,0 +1,35 @@
+body {
+  overscroll-behavior: contain;
+}
+
+.square {
+    max-width: 450px;
+    width: 90vw;
+    height: min(90vw, 450px);
+    border-radius: 6px;
+    background: #776e65;
+    padding: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20vh auto 0;
+}
+
+.sqarik {
+  width: 23%;
+  height: 23%;
+  background: rgba(238, 228, 218, 0.35);
+  border-radius: 2px;
+  text-align: center;
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  color: #776e65;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color_2 {
+  background-color: rgb(238, 228, 218);
+}
